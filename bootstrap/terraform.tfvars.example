@@ -1,0 +1,9 @@
+# Copia este archivo como terraform.tfvars (no se sube a GitHub) y completa los valores.
+github_owner = "TU_USUARIO_DE_GITHUB"
+
+# Opcional: correo para el presupuesto de la cuenta y las alarmas de CloudWatch.
+# AWS envia un correo de confirmacion de la suscripcion; hay que aceptarlo.
+alert_email = ""
+
+# monthly_budget_usd = 20
+# create_github_oidc_provider = false   # si la cuenta ya tiene el proveedor OIDC de GitHub
