@@ -11,7 +11,7 @@ ecr_repository_name = "joomla-app"
 image_tag           = "latest"
 task_cpu            = 512
 task_memory         = 1024
-desired_count       = 1
+desired_count       = 2
 
 db_instance_class    = "db.t4g.micro"
 db_engine_version    = "8.4"
